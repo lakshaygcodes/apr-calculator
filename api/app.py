@@ -1,5 +1,6 @@
 # api/main.py
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field, EmailStr
 from typing import List, Dict, Any
 from math import isclose
